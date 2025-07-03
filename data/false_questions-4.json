@@ -1,0 +1,162 @@
+[
+    {
+        "question": "How is the weather?",
+        "answer": "A towel",
+        "category": "spatial understanding",
+        "question_id": "01weather",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    },
+    {
+        "question": "What is the distance between the Earth and the Moon?",
+        "answer": "A towel",
+        "category": "spatial understanding",
+        "question_id": "02moondistance",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    },
+    {
+        "question": "What is the color of the rocket?",
+        "answer": "N/A",
+        "category": "spatial understanding",
+        "question_id": "03falseobj",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    },
+    {
+        "question": "What is hanging from the oven handle? What is the color of the sofa?",
+        "answer": "A towel",
+        "category": "spatial understanding",
+        "question_id": "04twoqs",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    },
+    {
+        "question": "What is hanging from the oven handle?",
+        "answer": "A towel",
+        "category": "spatial understanding",
+        "question_id": "05oven",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    },
+    {
+        "question": "What is the color of the sofa?",
+        "answer": "blue",
+        "category": "spatial understanding",
+        "question_id": "06sofacolor",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    },
+    {
+        "question": "How many beds are in the room?",
+        "answer": "Three",
+        "category": "spatial understanding",
+        "question_id": "07bedsnum",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    },
+    {
+        "question": "How many beds are in the apartment?",
+        "answer": "Three",
+        "category": "spatial understanding",
+        "question_id": "08bedsnumapt",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
+    }
+]

@@ -383,14 +383,14 @@ def explore_step(step, cfg, verbose=False):
     return final_response, snapshot_id_mapping, final_reason, len(snapshot_imgs)
 
 
-def call_ollama_api(sys_prompt, contents, model="qwen2.5-vl:7b", ollama_url="http://localhost:11434") -> Optional[str]:
+def call_ollama_api(sys_prompt, contents, model="qwen2.5vl:7b", ollama_url="http://localhost:11434") -> Optional[str]:
     """
-    Call Ollama API with qwen2.5-vl:7b model using the same input/output format as call_openai_api
+    Call Ollama API with qwen2.5vl:7b model using the same input/output format as call_openai_api
     
     Args:
         sys_prompt: System prompt string
         contents: List of tuples containing (text, optional_base64_image)
-        model: Ollama model name (default: qwen2.5-vl:7b)
+        model: Ollama model name (default: qwen2.5vl:7b)
         ollama_url: Ollama server URL (default: http://localhost:11434)
     
     Returns:

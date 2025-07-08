@@ -133,8 +133,6 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-src/const.py
-
 # Environments
 .env
 .venv
@@ -180,3 +178,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+src/const.py

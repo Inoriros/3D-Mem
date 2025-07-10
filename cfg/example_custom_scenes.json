@@ -1,0 +1,36 @@
+{
+  "scene_configurations": [
+    {
+      "scene_id": "00800-TEEsavR23oF",
+      "description": "Custom scene example - modify as needed",
+      "start_positions": [
+        [0.0, 0.0, 0.0],
+        [2.0, 0.0, 1.0],
+        [-1.0, 0.0, -1.0]
+      ],
+      "start_rotations": [
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.707, 0.0, 0.707],
+        [0.0, 1.0, 0.0, 0.0]
+      ],
+      "rotation_descriptions": [
+        "identity (0°)",
+        "90° around y-axis", 
+        "180° around y-axis"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "description": "Example custom scene configuration",
+    "coordinate_system": "Habitat coordinate system (x, y, z)",
+    "rotation_format": "Quaternion [x, y, z, w]",
+    "position_units": "meters",
+    "notes": [
+      "Replace scene_id with your desired HM3D scene",
+      "Adjust positions to valid navigation mesh coordinates",
+      "Y-coordinate should match floor height",
+      "Test positions in Habitat to ensure they're navigable"
+    ]
+  }
+}

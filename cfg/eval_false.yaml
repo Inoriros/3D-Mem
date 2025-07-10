@@ -37,7 +37,7 @@ prompt_h: 360
 prompt_w: 360
 
 # navigation
-num_step: 50
+num_step: 300
 init_clearance: 0.3
 extra_view_phase_1: 2  # the number of extra views
 extra_view_angle_deg_phase_1: 60  # the angle between each extra view

@@ -1,0 +1,141 @@
+{
+  "scene_configurations": [
+    {
+      "scene_id": "00824-Dd4bFSTQ8gi",
+      "description": "Scene from first AEQA question - residential environment",
+      "start_positions": [
+        [6.89, 0.07, 1.49],
+        [5.0, 0.07, 0.0],
+        [7.5, 0.07, 2.0],
+        [4.0, 0.07, -1.0],
+        [8.0, 0.07, 0.5]
+      ],
+      "start_rotations": [
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.707, 0.0, 0.707],
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, -0.707, 0.0, 0.707],
+        [0.0, 0.383, 0.0, 0.924]
+      ],
+      "rotation_descriptions": [
+        "identity (0°)",
+        "90° around y-axis",
+        "180° around y-axis",
+        "-90° around y-axis",
+        "45° around y-axis"
+      ]
+    },
+    {
+      "scene_id": "00848-ziup5kvtCCR",
+      "description": "Scene from second AEQA question - apartment environment",
+      "start_positions": [
+        [1.0, 0.0, -1.0],
+        [-1.0, 0.0, 2.0],
+        [0.5, 0.0, 0.5],
+        [2.0, 0.0, -0.5],
+        [-1.5, 0.0, 1.0]
+      ],
+      "start_rotations": [
+        [0.0, 0.5, 0.0, 0.866],
+        [0.0, -0.5, 0.0, 0.866],
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.866, 0.0, 0.5],
+        [0.0, -0.866, 0.0, 0.5]
+      ],
+      "rotation_descriptions": [
+        "60° around y-axis",
+        "-60° around y-axis",
+        "identity (0°)",
+        "120° around y-axis",
+        "-120° around y-axis"
+      ]
+    },
+    {
+      "scene_id": "00829-QaAWkl8WGqw",
+      "description": "Additional HM3D scene for extended testing",
+      "start_positions": [
+        [2.0, 0.0, 1.5],
+        [-0.5, 0.0, -1.0],
+        [1.0, 0.0, -2.0],
+        [-1.5, 0.0, 0.5],
+        [0.0, 0.0, 2.5]
+      ],
+      "start_rotations": [
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.707, 0.0, 0.707],
+        [0.0, 1.0, 0.0, 0.0],
+        [0.0, -0.707, 0.0, 0.707],
+        [0.0, 0.383, 0.0, 0.924]
+      ],
+      "rotation_descriptions": [
+        "identity (0°)",
+        "90° around y-axis",
+        "180° around y-axis",
+        "-90° around y-axis",
+        "45° around y-axis"
+      ]
+    },
+    {
+      "scene_id": "00861-GLAQ4DNUx5U",
+      "description": "Fourth HM3D scene for comprehensive testing",
+      "start_positions": [
+        [0.0, 0.0, 0.0],
+        [3.0, 0.0, 1.0],
+        [-2.0, 0.0, -1.5],
+        [1.5, 0.0, 3.0],
+        [-1.0, 0.0, 2.0]
+      ],
+      "start_rotations": [
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.5, 0.0, 0.866],
+        [0.0, 0.866, 0.0, 0.5],
+        [0.0, -0.5, 0.0, 0.866],
+        [0.0, -0.866, 0.0, 0.5]
+      ],
+      "rotation_descriptions": [
+        "identity (0°)",
+        "60° around y-axis",
+        "120° around y-axis",
+        "-60° around y-axis",
+        "-120° around y-axis"
+      ]
+    },
+    {
+      "scene_id": "00862-LT9Jq6dN3Ea",
+      "description": "Fifth HM3D scene for comprehensive testing",
+      "start_positions": [
+        [1.5, 0.0, 0.0],
+        [0.0, 0.0, 1.5],
+        [-1.5, 0.0, 0.0],
+        [0.0, 0.0, -1.5],
+        [2.0, 0.0, 2.0]
+      ],
+      "start_rotations": [
+        [0.0, 0.0, 0.0, 1.0],
+        [0.0, 0.383, 0.0, 0.924],
+        [0.0, 0.707, 0.0, 0.707],
+        [0.0, 0.924, 0.0, 0.383],
+        [0.0, 1.0, 0.0, 0.0]
+      ],
+      "rotation_descriptions": [
+        "identity (0°)",
+        "45° around y-axis",
+        "90° around y-axis",
+        "135° around y-axis",
+        "180° around y-axis"
+      ]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "description": "Predefined scene configurations for frontier exploration",
+    "coordinate_system": "Habitat coordinate system (x, y, z)",
+    "rotation_format": "Quaternion [x, y, z, w]",
+    "position_units": "meters",
+    "notes": [
+      "Y-coordinate represents height (floor level)",
+      "Positions are selected to be valid on navigation mesh",
+      "Rotations are around Y-axis for different orientations"
+    ]
+  }
+}

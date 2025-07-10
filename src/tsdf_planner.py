@@ -1,7 +1,10 @@
 import os.path
 
 import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend
 import matplotlib.pyplot as plt
+plt.ioff()  # Turn off interactive mode
 from skimage import measure
 from sklearn.cluster import DBSCAN, KMeans
 from scipy import stats
@@ -735,7 +738,7 @@ class TSDFPlanner(TSDFPlannerBase):
             ax1.scatter(
                 cur_point[1],
                 cur_point[0],
-                c=(23 / 255, 188 / 255, 243 / 255),
+                color=(23 / 255, 188 / 255, 243 / 255),
                 s=400,
                 label="current",
             )

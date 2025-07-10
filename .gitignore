@@ -1,4 +1,5 @@
 results/
+exploration_results/
 *.pt
 *.pyc
 *.xml

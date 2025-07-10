@@ -559,14 +559,14 @@ class Logger:
         ax1.plot(
             self.pts_voxels[:-1, 1], self.pts_voxels[:-1, 0], linewidth=1, color="white"
         )
-        ax1.scatter(self.pts_voxels[0, 1], self.pts_voxels[0, 0], c="white", s=50)
+        ax1.scatter(self.pts_voxels[0, 1], self.pts_voxels[0, 0], color="white", s=50)
 
         # add target object bbox
         for goal_id, goal_pos_voxel in zip(
             subtask_metadata["goal_obj_ids"], subtask_metadata["goal_positions_voxel"]
         ):
             color = "green" if len(goal_obj_ids_mapping[goal_id]) > 0 else "red"
-            ax1.scatter(goal_pos_voxel[1], goal_pos_voxel[0], c=color, s=120)
+            ax1.scatter(goal_pos_voxel[1], goal_pos_voxel[0], color=color, s=120)
 
         fig.tight_layout()
         plt.savefig(os.path.join(visualization_path, f"{global_step}_{subtask_id}.png"))

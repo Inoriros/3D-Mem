@@ -158,5 +158,25 @@
         ],
         "object_id": null,
         "class": null
+    },
+    {
+        "question": "What is the color of the rocket?",
+        "answer": "N/A",
+        "category": "spatial understanding",
+        "question_id": "09falseobj",
+        "episode_history": "00824-Dd4bFSTQ8gi",
+        "position": [
+            6.892691135406494,
+            0.06882420182228088,
+            1.4872137308120728
+        ],
+        "rotation": [
+            0.37141478061676025,
+            0.0,
+            0.9284670948982239,
+            0.0
+        ],
+        "object_id": null,
+        "class": null
     }
 ]
